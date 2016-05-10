@@ -1,4 +1,9 @@
 ## Chaika appender for python
+
+Install from PyPi
+
+    pip install python-chaika
+
 Simple example
 
     import logging
@@ -15,4 +20,3 @@ Simple example
     logger.setLevel(logging.INFO)
 
     logger.info('Hello world', 'lmao')
-
